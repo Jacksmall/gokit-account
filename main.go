@@ -15,7 +15,7 @@ import (
 	"syscall"
 )
 
-var dbsource = "root:chenkuanwo5@tcp(127.0.0.1:3306)/recordings?charset=utf8mb4&parseTime=True&loc=Local"
+var dbsource = "root:root@tcp(127.0.0.1:3306)/recordings?charset=utf8mb4&parseTime=True&loc=Local"
 
 func main() {
 	var httpAddr = flag.String("http", ":8081", "http listen address")
