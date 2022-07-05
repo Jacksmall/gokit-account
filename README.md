@@ -33,5 +33,12 @@ service=account time:=2022-07-05T08:01:12.219087Z caller=repo.go:41 repo=GetUser
 service=account time:=2022-07-05T08:01:12.219154Z caller=logic.go:47 logic=GetUser GetUser=f21813da-127d-4c77-9dee-5e745807b6b2
 
 ```
+3.结束服务器端
+```
+^Clevel=error service=account time:=2022-07-05T08:03:12.044083Z caller=main.go:72 exit=interrupt
+level=info service=account time:=2022-07-05T08:03:12.044155Z caller=main.go:73 msg="service ended"
+
+```
+
 
 ...
