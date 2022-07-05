@@ -8,7 +8,6 @@ listening on port :8081
 
 ```
 1.post http://localhost:8081/user
-使用postman或者curl发送post请求:http://localhost:8081/user
 ```
 body: raw: json: {"name":"testname", "email":"123@gmail.com"}
 
